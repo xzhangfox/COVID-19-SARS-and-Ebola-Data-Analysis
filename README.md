@@ -16,6 +16,7 @@ So I started this data research project on COVID-19. Through data visualization,
 ### Visualization
 <img align="center" src="https://github.com/xzhangfox/COVID-19-SARS-and-Ebola-Data-Analysis/blob/master/images/Visualization.png?raw=true" />
 I am going to visualize epidemic data mainly in Tableau. The information carried by the data will be mined from vary aspects and communicated to the audience interactively. Use HTML, CSS,javascript, and design styles to capture the audience's attention. And make the expression of professional knowledge more popular and interesting.
+
 ### Modeling
 <img align="center" src="https://github.com/xzhangfox/COVID-19-SARS-and-Ebola-Data-Analysis/blob/master/images/Timeseries.png?raw=true" />
 For further research, I plan to build a models to analyse similarities and differences of COVID-19, SARS and Rbola data. Use the time series models to predict spread trend in the time dimension.
