@@ -28,11 +28,12 @@ With the daily update of JHU CSSE, my total data volume is increasing day by day
 Because of the data format of the daily report, even error types are difficult to unify. I tried using pandas to collate the content and the NLP model to fetch the data I needed. But this part is still being perfected.
 # Inspiration for Web Design
 I want the homepage to be as eye-catching as possible. Then, with the introduction of striking visual effects, the severity of covid-19 was conveyed by embedding relevant literature, news, videos and charts. In terms of the interaction method, I hope to have a certain dynamic effect, so that the whole aesthetic effect is lively.
+
 # References
-*
-*
-*
-*
-*
-*
+* CDC: https://www.cdc.gov/coronavirus/2019-ncov/index.html
+* YouTube: https://www.youtube.com/watch?v=21MIvkk7Imc
+* W3School: https://www.w3school.com.cn/index.html
+* CDBM: https://www.cebm.net/covid-19/global-covid-19-case-fatality-rates/
+* NBCNews: https://www.nbcnews.com/health/coronavirus
+
 
