@@ -4,7 +4,7 @@ This project aims to arouse public awareness of COVID-19 prevention and control.
 <img align="center" src="https://github.com/xzhangfox/COVID-19-SARS-and-Ebola-Data-Analysis/blob/master/images/header.png?raw=true" />
 
 # Motivation
-When I saw covid-19 starting to spread in Washington state in February, I am worried every day about the new coronavirus outbreak and the lack of awareness of protection in the United States. 
+When I saw covid-19 starting to spread in Washington state in February, I am worried every day about the new coronavirus outbreak and the lack of awareness of protection in the United States. <br>
 As a Chinese, I know what has happened in China in January and February. China is recovring right in March but it paid huge. I know the reason of China's recovering was that the whole country was on high alert and everyone attached great importance to epidemic prevention.
 But it is happening again. The United States in March, like China at the start of the outbreak, is not taking it seriously. People didn't realize the seriousness until the death rate rose. I don’t want the people to suffered again.I hope to pass on the severity of the new coronavirus and help people live safely during the outbreak.
 So I started this data research project on COVID-19. Through data visualization, people's awareness of self-protection is aroused, and they hope to find more directions for the solution of covid-19 from previous outbreak cases.
