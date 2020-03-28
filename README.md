@@ -19,6 +19,7 @@ I am going to visualize epidemic data mainly in Tableau. The information carried
 ### Modeling
 <img align="center" src="https://github.com/xzhangfox/COVID-19-SARS-and-Ebola-Data-Analysis/blob/master/images/Timeseries.png?raw=true" />
 For further research, I plan to build a models to analyse similarities and differences of COVID-19, SARS and Rbola data. Use the time series models to predict spread trend in the time dimension.
+
 # Data Preprocessing
 <img align="center" src="https://github.com/xzhangfox/COVID-19-SARS-and-Ebola-Data-Analysis/blob/master/images/datasource.png?raw=true" />
 Novel Coronavirus (COVID-19) Cases Data is collected by The Center for Systems Science and Engineering (CSSE) at JHU, and available to be downloaded to CSV files from GitHub. <br>
