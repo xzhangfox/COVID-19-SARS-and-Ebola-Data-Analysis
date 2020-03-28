@@ -13,7 +13,11 @@ So I started this data research project on COVID-19. Through data visualization,
 * Visual Stidio Code
 * Tableau
 # Goals
-We hope to be able to visualize epidemic data in many aspects. The information carried by the data is mined from all angles and communicated to the audience interactively. For further research, I plan to build a model for analysis and prediction by comparing the similarities and differences of different epidemic data. Use the data tools I have learned to make a contribution to the COVID-19 solution.
+### Visualization
+I am going to visualize epidemic data in many aspects. The information carried by the data is mined from all angles and communicated to the audience interactively. Use HTML, CSS,javascript, and design styles to capture the audience's attention. And make the expression of professional knowledge more popular and interesting.
+### Modeling
+For further research, I plan to build a models to analyse similarities and differences of COVID-19, SARS and Rbola data. Use the time series models to predict spread trend in the time dimension.
+Use the data tools I have learned to make a contribution to the COVID-19 solution.
 # Data Preprocessing
 
 # Inspiration for Web Design
