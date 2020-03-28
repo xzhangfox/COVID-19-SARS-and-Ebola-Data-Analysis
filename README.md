@@ -10,7 +10,7 @@ But it is happening again. The United States in March, like China at the start o
 So I started this data research project on COVID-19. Through data visualization, people's awareness of self-protection is aroused, and they hope to find more directions for the solution of covid-19 from previous outbreak cases.
 # Requirements
 * Python 2.7/3.7
-* Visual Stidio Code
+* Visual Studio Code
 * Tableau
 # Goals
 ### Visualization
