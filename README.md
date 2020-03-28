@@ -27,6 +27,7 @@ Novel Coronavirus (COVID-19) Cases Data is collected by The Center for Systems S
 Due to the ongoing outbreak of novel coronavirus pneumonia. JHU CSSE updates the latest data of the day on a daily basis. I wrote a code in Python to walk through all the data files in the folder and organize them into a complete data set. <br>
 With the daily update of JHU CSSE, my total data volume is increasing day by day. The latitude, longitude and country/state data contained in this data can be used in geographic charts, and time-lines accurate to the hour can provide research on trends and future predictions. I found reliable historical data on SARS and Ebola on Kaggle. Since they are no longer updated, I only preprocessed them, and unified the columns type with COVID-19 data. They were also uploaded to the Google Spreadsheet just like the COVID-19 data.<br>
 Because of the data format of the daily report, even error types are difficult to unify. I tried using pandas to collate the content and the NLP model to fetch the data I needed. But this part is still being perfected.
+
 # Inspiration for Web Design
 I want the homepage to be as eye-catching as possible. Then, with the introduction of striking visual effects, the severity of covid-19 was conveyed by embedding relevant literature, news, videos and charts. In terms of the interaction method, I hope to have a certain dynamic effect, so that the whole aesthetic effect is lively.
 
