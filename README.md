@@ -2,6 +2,7 @@
 This project aims to arouse public awareness of COVID-19 prevention and control. We hope to find out the similarities and differences between COVID-19 and other infectious diseases, so as to further understand COVID-19.
 * Publish Site： https://xzhangfox.github.io/COVID-19-SARS-and-Ebola-Data-Analysis/
 <img align="center" src="https://github.com/xzhangfox/COVID-19-SARS-and-Ebola-Data-Analysis/blob/master/images/header.png?raw=true" />
+
 # Motivation
 When I saw covid-19 starting to spread in Washington state in February, I am worried every day about the new coronavirus outbreak and the lack of awareness of protection in the United States. 
 As a Chinese, I know what has happened in China in January and February. China is recovring right in March but it paid huge. I know the reason of China's recovering was that the whole country was on high alert and everyone attached great importance to epidemic prevention.
