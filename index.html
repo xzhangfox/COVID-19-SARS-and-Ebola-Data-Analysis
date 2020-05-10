@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
 <title>Home</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
-<!-- bootstrap -->
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!--// bootstrap -->
+<!--// bootstrap-css -->
 <!-- css -->
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <!--// css -->
@@ -23,20 +25,22 @@
 	});
 </script> 
 
-
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
 </head>
 <body>
-	<!-- BANBANBAN -->
-	<div class="BANBANBAN">
+	<!-- banner -->
+	<div class="banner">
 		<div class="agileinfo-dot">
 			<div class="agileits-logo">
 				<h1><a href="index.html">COVID-19 · SARS · EBOLA <span>ANALYSIS</span></a></h1>
 			</div>
 			<div class="header-top">
-				<div class="FRAME">
+				<div class="container">
 					<div class="header-top-info">
 						<nav class="navbar navbar-default">
-							<!-- BRAND & TOGGLE -->
+							<!-- Brand and toggle get grouped for better mobile display -->
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 									<span class="sr-only">Toggle navigation</span>
@@ -46,7 +50,7 @@
 								</button>
 							</div>
 
-							<!-- NATIGATION -->
+							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 								<nav>
 									<ul class="nav navbar-nav">
@@ -58,50 +62,50 @@
 									</ul>
 								</nav>
 							</div>
-							<!-- NAV -->
+							<!-- /.navbar-collapse -->
 						</nav>
 					</div>
 				</div>
 			</div>
-			<div class="WLAY-BAN">
-				<div class="FRAME">
-					<div class="BAN-SLID">
-						<div class="BAN-TOP-SLID">
-							<div class="LIDS">
-								<div class="CBS_FRAME">
-									<ul class="RSLDS CBS CBS1" id="LIDS4">
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slider">
+						<div class="w3layouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
 										<li>
-											<div class="BWEN">
+											<div class="banner_text">
 												<h3>STAY HOME</h3>
 												<p>Don't be exposed to the virus</p>
-												<div class="WBTOONN">
-													<a href="#" data-toggle="MDL" data-target="#myMDL">How to Protect Yourself and Your Family</a>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">How to Protect Yourself and Your Family</a>
 												</div>
 											</div>
 										</li>
 										<li>
-											<div class="BWEN">
+											<div class="banner_text">
 												<h3>WASH HANDS</h3>
 												<p>Block virus transmission</p>
-												<div class="WBTOONN">
-													<a href="#" data-toggle="MDL" data-target="#myMDL">How to Protect Yourself and Your Family</a>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">How to Protect Yourself and Your Family</a>
 												</div>
 											</div>
 										</li>
 									</ul>
 								</div>
-								<div class="CLRSTEABLE"> </div>
+								<div class="clearfix"> </div>
 								<script src="js/responsiveslides.min.js"></script>
 								<script>
-
+									// You can also use "$(window).load(function() {"
 									$(function () {
-
-									  $("#LIDS4").responsiveSlides({
+									  // Slideshow 4
+									  $("#slider4").responsiveSlides({
 										auto: true,
 										pager:true,
 										nav:true,
 										speed: 500,
-										namespace: "CBS",
+										namespace: "callbacks",
 										before: function () {
 										  $('.events').append("<li>before event fired.</li>");
 										},
@@ -112,7 +116,7 @@
 								
 									});
 								 </script>
-								<!--BANBANBAN LIDS starts Here-->
+								<!--banner Slider starts Here-->
 							</div>
 						</div>
 					</div>
@@ -120,15 +124,15 @@
 			</div>
 		</div>
 	</div>
-	<!-- //BANBANBAN -->
+	<!-- //banner -->
 
 
 	<!-- Overview -->
 	<div class="about" id="about"> 
 
-		<div class="FRAME"> 
+		<div class="container"> 
 			<div class="welcome">
-				<div class="AGTS-TT"> 
+				<div class="agileits-title"> 
 					<h2>COVID-19 Outbreak in United States</h2>
 					<p>The outbreak of COVID-19 in the United States began in early march. The number of confirmed cases is soaring, the number of deaths is high and the number of people recovering is not good. Through the following overview, I hope to arouse people's awareness of protection, pay attention to the outbreak, and ensure the safety of themselves and their families.</p>
 				</div>
@@ -177,16 +181,16 @@
 
 
 	
-	<!-- MDL -->
-	<div class="MDL about-MDL fade" id="myMDL" tabindex="-1" role="dialog">
-		<div class="MD-DIDIG" role="document">
-			<div class="MD-CTT">
-				<div class="MD-HHDER"> 
-					<button type="button" class="close" data-dismiss="MDL" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-					<h4 class="MD-TT">Protect Yourself from<span> Coronavirus</span></h4>
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title">Protect Yourself from<span> Coronavirus</span></h4>
 				</div> 
-				<div class="MD-BBDY">
-					<div class="AGL-WLOT-INFO">
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/21MIvkk7Imc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						<p><li>Stay home when you are sick</li> 
 							<li>Call your health care provider’s office in advance of a visit</li> 
@@ -199,15 +203,15 @@
 		</div>
 	</div>
 
-	<div class="MDL about-MDL fade" id="myMDL1" tabindex="-1" role="dialog">
-		<div class="MD-DIDIG" role="document">
-			<div class="MD-CTT">
-				<div class="MD-HHDER"> 
-					<button type="button" class="close" data-dismiss="MDL" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-					<h4 class="MD-TT">Lastest News for<span> Coronavirus</span></h4>
+	<div class="modal about-modal fade" id="myModal1" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title">Lastest News for<span> Coronavirus</span></h4>
 				</div> 
-				<div class="MD-BBDY">
-					<div class="AGL-WLOT-INFO">
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/v3QKqMh4gjI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 						<h5>If you are interested in more information, please visit the <a href="https://www.nbcnews.com/think/video/she-had-covid-19-but-no-insurance-her-treatment-cost-34-972-81248837801">NBC NEWS</a>.</h5> </p>
@@ -217,15 +221,15 @@
 		</div>
 	</div>
 
-	<div class="MDL about-MDL fade" id="myMDL2" tabindex="-1" role="dialog">
-		<div class="MD-DIDIG" role="document">
-			<div class="MD-CTT">
-				<div class="MD-HHDER"> 
-					<button type="button" class="close" data-dismiss="MDL" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-					<h4 class="MD-TT">Lastest News for<span> Coronavirus</span></h4>
+	<div class="modal about-modal fade" id="myModal2" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title">Lastest News for<span> Coronavirus</span></h4>
 				</div> 
-				<div class="MD-BBDY">
-					<div class="AGL-WLOT-INFO">
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/uolZH4wNvw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						<h5>If you are interested in more information, please visit the <a href="https://www.nbcnews.com/think/video/she-had-covid-19-but-no-insurance-her-treatment-cost-34-972-81248837801">NBC NEWS</a>.</h5> </p>
 					</div>
@@ -233,74 +237,74 @@
 			</div>
 		</div>
 	</div>
-	<!-- //MDL -->
+	<!-- //modal -->
 
 	<!-- News -->
-	<div id="NEEEWS" class="NEEEWS">
-		<div class="FRAME"> 
-			<div class="AGTS-TT">
+	<div id="blog" class="blog">
+		<div class="container"> 
+			<div class="agileits-title">
 				<h3>News for COVID-19</h3>
 			</div> 
-			<div class="wthree-NEEEWS-grids">
-				<div class="CM-DL-6 WTHREE-AGEits-NEEEWS-grid">
-					<div class="CM-SSM-4 CM_SIX-3 NEEEWS-left">
+			<div class="wthree-blog-grids">
+				<div class="col-md-6 w3-agileits-blog-grid">
+					<div class="col-sm-4 col-xs-3 blog-left">
 						<h4>03/26</h4>
 						<ul>
 							<li>Reported : <a href="https://www.nbcnews.com/">NBC NEWS</a></li>
 							<li>News type: Think<li>
 						</ul>
 					</div>
-					<div class="CM-SSM-8 CM_SIX-9 NEEEWS-right">
-						<a href="https://www.nbcnews.com/think/video/she-had-covid-19-but-no-insurance-her-treatment-cost-34-972-81248837801" data-toggle="MDL" data-target="#myMDL1">She had COVID-19, but no insurance. Her treatment cost $34,972.</a>
+					<div class="col-sm-8 col-xs-9 blog-right">
+						<a href="https://www.nbcnews.com/think/video/she-had-covid-19-but-no-insurance-her-treatment-cost-34-972-81248837801" data-toggle="modal" data-target="#myModal1">She had COVID-19, but no insurance. Her treatment cost $34,972.</a>
 						<p>Cancer patient Danni Askini didn’t have insurance when she first entered the emergency room with flu-like symptoms. Three ER visits later, she left with a coronavirus diagnosis and a nearly $35,000 bill. </p>
 					</div>
-					<div class="CLRSTEABLE"> </div>
+					<div class="clearfix"> </div>
 				</div>
-				<div class="CM-DL-6 WTHREE-AGEits-NEEEWS-grid">
-					<div class="CM-SSM-4 CM_SIX-3 NEEEWS-left">
+				<div class="col-md-6 w3-agileits-blog-grid">
+					<div class="col-sm-4 col-xs-3 blog-left">
 						<h4>04/26</h4>
 						<ul>
 							<li>Reported : <a href="https://www.nbcnews.com/">NBC NEWS</a></li>
 							<li>News type: Economics<li>
 						</ul>
 					</div>
-					<div class="CM-SSM-8 CM_SIX-9 NEEEWS-right">
-						<a href="https://www.nbcnews.com/politics/congress/coronavirus-checks-direct-deposits-are-coming-here-s-everything-you-n1168936" data-toggle="MDL" data-target="#myMDL2">Coronavirus checks, direct deposits are coming. Here's everything you need to know.</a>
+					<div class="col-sm-8 col-xs-9 blog-right">
+						<a href="https://www.nbcnews.com/politics/congress/coronavirus-checks-direct-deposits-are-coming-here-s-everything-you-n1168936" data-toggle="modal" data-target="#myModal2">Coronavirus checks, direct deposits are coming. Here's everything you need to know.</a>
 						<p>Who qualifies? How much is being sent? When? How will I get the money? Questions and answers.</p>
 					</div>
-					<div class="CLRSTEABLE"> </div>
+					<div class="clearfix"> </div>
 				</div>
-				<div class="CLRSTEABLE"> </div>
+				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
 	<!-- //News -->
 
 	<!-- Outbreaks in 21 Century -->
-	<div class="jarallax TSTMNAL" id="TSTMNAL">
-		<div class="TSTMNAL-dot">
-			<div class="FRAME">
-				<div class="AGTS-TT TSTMNAL-heading"> 
+	<div class="jarallax testimonial" id="testimonial">
+		<div class="testimonial-dot">
+			<div class="container">
+				<div class="agileits-title testimonial-heading"> 
 					<h3>Outbreaks in 21 Century</h3> 
 				</div>
-				<div class="WTHREE-AGE-TSTMNAL">
-					<div class="LIDS">
-						<div class="CBS_FRAME">
-							<ul class="RSLDS CBS CBS1" id="LIDS3">
+				<div class="w3-agile-testimonial">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider3">
 								<li>
-									<div class="TSTMNAL-img-grid">
-										<div class="TSTMNAL-img">
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img">
 											<img src="images/COVID-19.jpeg" alt="" />
 										</div>
-										<div class="TSTMNAL-img t-img1">
+										<div class="testimonial-img t-img1">
 											<img src="images/SARS.jpg" alt="" />
 										</div>
-										<div class="TSTMNAL-img t-img2">
+										<div class="testimonial-img t-img2">
 											<img src="images/Ebola.jpg" alt="" />
 										</div>
-										<div class="CLRSTEABLE"> </div>
+										<div class="clearfix"> </div>
 									</div>
-									<div class="T-IMAGE-info">
+									<div class="testimonial-img-info">
 										<h5>COVID-19</h5>
 										<h6>Dec 2019 - Present</h6>
 										<p>Covid-19 exploded in late 2019. Because the virus is highly contagious during a long incubation period, 
@@ -312,22 +316,22 @@
 									</div>
 								</li>
 								<li>
-									<div class="TSTMNAL-img-grid">
-										<div class="TSTMNAL-img t-img2">
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img2">
 											<img src="images/COVID-19.jpeg" alt="" />
 										</div>
-										<div class="TSTMNAL-img">
+										<div class="testimonial-img">
 											<img src="images/SARS.jpg" alt="" />
 										</div>
-										<div class="TSTMNAL-img t-img1">
+										<div class="testimonial-img t-img1">
 											<img src="images/Ebola.jpg" alt="" />
 										</div>
-										<div class="CLRSTEABLE"> </div>
+										<div class="clearfix"> </div>
 									</div>
-									<div class="T-IMAGE-info">
+									<div class="testimonial-img-info">
 										<h5>SARS</h5>
 										<h6>Nov 2002 - Jul 2003</h6>
-										<p>The SARS virus first broke out in 2002. The virus is mainly spread through close respiratory droplets and close CALMEE, 
+										<p>The SARS virus first broke out in 2002. The virus is mainly spread through close respiratory droplets and close contact, 
 											but can also be spread through faeces, urine and blood. In 2003, 
 											the world health organization delisted all regions from the epidemic area. <br>
 											Visit <a href="https://www.cdc.gov/about/history/sars/timeline.htm">CDC SARS Response Timeline</a> for more timeline information.
@@ -336,19 +340,19 @@
 									</div>
 								</li>
 								<li>
-									<div class="TSTMNAL-img-grid">
-										<div class="TSTMNAL-img t-img1">
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
 											<img src="images/COVID-19.jpeg" alt="" />
 										</div>
-										<div class="TSTMNAL-img t-img2">
+										<div class="testimonial-img t-img2">
 											<img src="images/SARS.jpg" alt="" />
 										</div>
-										<div class="TSTMNAL-img">
+										<div class="testimonial-img">
 											<img src="images/Ebola.jpg" alt="" />
 										</div>
-										<div class="CLRSTEABLE"> </div>
+										<div class="clearfix"> </div>
 									</div>
-									<div class="T-IMAGE-info">
+									<div class="testimonial-img-info">
 										<h5>Ebola</h5>
 										<h6>Feb 2014 – Jul 2015</h6>
 										<p>In the 21st century, the ebola virus began to spread widely in west Africa in February 2014, 
@@ -362,17 +366,17 @@
 								</li>
 							</ul>
 						</div>
-						<div class="CLRSTEABLE"> </div>
+						<div class="clearfix"> </div>
 						<script>
 									// You can also use "$(window).load(function() {"
 									$(function () {
 									  // Slideshow 4
-									  $("#LIDS3").responsiveSlides({
+									  $("#slider3").responsiveSlides({
 										auto: true,
 										pager:false,
 										nav:false,
 										speed: 500,
-										namespace: "CBS",
+										namespace: "callbacks",
 										before: function () {
 										  $('.events').append("<li>before event fired.</li>");
 										},
@@ -383,7 +387,7 @@
 								
 									});
 						</script>
-						<!--BANBANBAN LIDS starts Here-->
+						<!--banner Slider starts Here-->
 					</div>
 				</div>
 			</div>
@@ -392,21 +396,21 @@
 	<!-- //Outbreaks in 21 Century -->
 
 
-	<!-- GROUP -->
-	<div class="GROUP" id="GROUP">
-		<div class="FRAME">
-			<div class="AGTS-TT"> 
+	<!-- team -->
+	<div class="team" id="team">
+		<div class="container">
+			<div class="agileits-title"> 
 				<h3>Learn More About Virus</h3> 
 			</div>
-			<div class="AG-GROUP-grids">
-				<div class="CM-DL-3 AG-GROUP-grid">
-					<div class="GROUP-INFO">
+			<div class="agileits-team-grids">
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
 						<img src="images/COVID-19.jpeg" alt="">
-						<div class="GROUP-CAP"> 
+						<div class="team-caption"> 
 							<h4>Novel Coronavirus</h4>
 							<p>Fatality: 0% - 15% </p>
 							<ul>
-								<div class="WBTOONN">
+								<div class="w3-button">
 									<li><a href="COVID-19.html">Learn More</a></li>
 								</div>
 								
@@ -414,126 +418,130 @@
 						</div>
 					</div>
 				</div>
-				<div class="CM-DL-3 AG-GROUP-grid">
-					<div class="GROUP-INFO">
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
 						<img src="images/SARS.jpg" alt="">
-						<div class="GROUP-CAP"> 
+						<div class="team-caption"> 
 							<h4>SARS-CoV</h4>
 							<p>Fatality Rate: 1% - 55%</p>
 							<ul>
-								<div class="WBTOONN">
+								<div class="w3-button">
 									<li><a href="SARS.html">Learn More</a></li>
 								</div>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="CM-DL-3 AG-GROUP-grid">
-					<div class="GROUP-INFO">
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
 						<img src="images/Ebola.jpg" alt="">
-						<div class="GROUP-CAP"> 
+						<div class="team-caption"> 
 							<h4>Ebola Virus</h4>
 							<p>Fatality Rate: 83% - 100%</p>
 							<ul>
-								<div class="WBTOONN">
+								<div class="w3-button">
 									<li><a href="EBOLA.html">Learn More</a></li>
 								</div>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="CM-DL-3 AG-GROUP-grid">
-					<div class="GROUP-INFO">
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
 						<img src="images/Virus.jpg" alt="">
-						<div class="GROUP-CAP"> 
+						<div class="team-caption"> 
 							<h4>Prediction</h4>
 							<p>Predict the trend of COVID-19</p>
 							<ul>
-								<div class="WBTOONN">
+								<div class="w3-button">
 									<li><a href="Prediction.html">Learn More</a></li>
 								</div>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="CLRSTEABLE"> </div>
+				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-	<!-- //GROUP -->
+	<!-- //team -->
 
 
 	
 
 
-	<!-- CALMEE -->
-	<div id="CALMEE" class="CALMEE">
-		<div class="CALMEE-row agileits-w3layouts">  
-			<div class="CM-DL-7 CALMEE-w3lsright">
-				<h3>Contact</h3>
-				<div class="CM_SIX-6 address-row">
-					<div class="CM_SIX-2 address-left">
+	<!-- contact -->
+	<div id="contact" class="contact">
+		<div class="contact-row agileits-w3layouts">  
+			<div class="col-md-7 contact-w3lsright">
+				<h3>CONTACT</h3>
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
 					</div>
-					<div class="CM_SIX-10 address-right">
+					<div class="col-xs-10 address-right">
 						<h5>GitHub</h5>
 						<p> <a href="https://github.com/xzhangfox">  github.com/xzhangfox</a> 
 						</p>
 					</div>
-					<div class="CLRSTEABLE"> </div>
+					<div class="clearfix"> </div>
 				</div>
 
-				<div class="CM_SIX-6 address-row WTHREE-AGEits">
-					<div class="CM_SIX-2 address-left">
+				<div class="col-xs-6 address-row w3-agileits">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
 					</div>
-					<div class="CM_SIX-10 address-right">
+					<div class="col-xs-10 address-right">
 						<h5>Email</h5>
 						<p><a href="mailto:xzhangfox@gwu.edu"> xzhangfox@gwu.edu</a></p>
 					</div>
-					<div class="CLRSTEABLE"> </div>
+					<div class="clearfix"> </div>
 				</div>
 				
-				<div class="CM_SIX-6 address-row">
-					<div class="CM_SIX-2 address-left">
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
 					</div>
-					<div class="CM_SIX-10 address-right">
+					<div class="col-xs-10 address-right">
 						<h5>Call Me</h5>
 						<p><a href="#">(619)408-8347</a></p>
 					</div>
-					<div class="CLRSTEABLE"> </div>
+					<div class="clearfix"> </div>
 				</div> 
-				<div class="CM_SIX-6 address-row">
-					<div class="CM_SIX-2 address-left">
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
 					</div>
-					<div class="CM_SIX-10 address-right">
+					<div class="col-xs-10 address-right">
 						<h5>LinkedIn</h5>
 						<p><a href="https://www.linkedin.com/in/xzhangfox/">linkedin.com/in/xzhangfox</a></p>
 							
 
 					</div>
-					<div class="CLRSTEABLE"> </div>
+					<div class="clearfix"> </div>
 				</div>
-				<div class="CLRSTEABLE"> </div>	
+				<div class="clearfix"> </div>	
 			</div>
-			<div class="CLRSTEABLE"> </div>
+			<div class="clearfix"> </div>
 		</div>	
 	</div>
-	<!-- //CALMEE -->
+	<!-- //contact -->
 	
 	
-	<!-- FUUT -->
-	<div class="FUUT">
-		<div class="FRAME">
-			<div class="FUUT-top">
-				<div class="CM-DL-3 AMT-SAD"> 
-					<div class="FUUT-title">
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-3 amet-sed"> 
+					<div class="footer-title">
 						<h3>Instructor</h3>
 					</div> 
 					<p>Nima Zahadat, Ph.D <br>
 						Data Science Department <br>
 						George Washington University</p>
 				</div>
-				<div class="CM-DL-5 AMT-SAD"> 
-					<div class="FUUT-title">
+				<div class="col-md-5 amet-sed"> 
+					<div class="footer-title">
 						<h3>Technical References</h3>
 					</div> 
 					<p>
@@ -542,8 +550,8 @@
 						
 					</p>
 				</div>
-				<div class="CM-DL-4 AMT-SAD"> 
-					<div class="FUUT-title">
+				<div class="col-md-4 amet-sed"> 
+					<div class="footer-title">
 						<h3>Literature References</h3>
 					</div> 
 					<p>
@@ -553,17 +561,17 @@
 					</p>
 				</div>
 	
-				<div class="CLRSTEABLE"> </div>
+				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-	<!-- //FUUT --> 
+	<!-- //footer --> 
 
 	
 	<!-- copyright -->
 	<div class="copyright">
-		<div class="FRAME">
-			<p class="FUUT-class">Copyright &copy; 
+		<div class="container">
+			<p class="footer-class">Copyright &copy; 
 				<script>
 				var d = new Date() 
 				document.write(d.getFullYear());
@@ -575,7 +583,48 @@
 		</div>
 	</div>
 	<!-- //copyright -->
+
+
+
+	<script src="js/jarallax.js"></script>
+	<!-- <script src="js/SmoothScroll.min.js"></script> -->
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
 	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- Tabs-JavaScript -->
+	<script src="js/jquery.filterizr.js"></script>
+		<script src="js/controls.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script>
+	<!-- //Tabs-JavaScript -->
 
 </body>	
 </html>
